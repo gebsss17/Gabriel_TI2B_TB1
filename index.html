@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gebs Production</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      background-color: red;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .navbar .brand {
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .navbar .brand i {
+      margin-right: 8px;
+    }
+
+    .navbar .menu a {
+      color: white;
+      text-align: center;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+      transition: background-color 0.3s;
+    }
+
+    .navbar .menu a:hover {
+      background-color: #cc0000;
+    }
+
+    .content {
+      padding: 30px 200px;
+      background-color: #007bff;
+      color: white;
+      max-width: 800px;
+      margin: 50px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    form {
+    margin-top: 20px;
+  }
+
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  input[type="submit"] {
+    margin-top: 10px;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="brand">
+    <i class="fas fa-globe"></i> Gebs Production
+    </div>
+    <div class="menu">
+      <a href="profil.html" target="_blank">Profil</a>
+      <a href="keluarga.html" target="_blank">Keluarga</a>
+      <a href="teman.html" target="_blank">Teman</a>
+      <a href="hobi.html" target="_blank">Hobi</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1>Selamat Datang!</h1>
+    <p style="text-align: justify;">Halo! Saya Gabriel, seorang Mahasiswa Politeknik Negeri Jakarta yang percaya bahwa setiap proses kreatif dimulai dari rasa ingin tahu dan keberanian untuk mencoba hal baru. Dengan latar belakang di bidang Information Technology, saya telah menghabiskan beberapa tahun terakhir mengeksplorasi berbagai proyek yang tidak hanya menantang, tetapi juga memperkaya perspektif saya sebagai seorang profesional.
+        Perjalanan saya dimulai dari hal-hal yang berhubungan dengan Information Technology. Namun dari situlah saya menemukan gairah saya: menciptakan sesuatu yang bisa dirasakan, dilihat, dan bermanfaat bagi orang lain. Sejak itu, saya terus belajar, beradaptasi dengan teknologi dan tren baru, serta membangun koneksi dengan klien dan kolaborator dari berbagai latar belakang.
+        Saya percaya bahwa kerja keras, detail, dan komunikasi yang baik adalah kunci dari setiap hasil kerja yang memuaskan. Di luar pekerjaan, saya juga menikmati hobi saya yaitu Traveling.
+        Melalui website ini, saya ingin berbagi sebagian dari karya dan cerita saya—baik dalam bentuk proyek, tulisan, maupun hal-hal kecil yang saya pelajari sepanjang perjalanan ini. 
+        <br>Terima kasih sudah mampir.</p>
+        <br>
+        <h2>Kritik & Saran Mengenai Website Ini!</h2>
+        <form action="/page.php" method="post">
+          <label for="name">Nama :</label><br>
+          <input type="text" id="name" name="name"><br><br>
+        
+          <label for="saran">Kritik & Saran Anda :</label><br>
+          <textarea id="saran" name="saran" rows="4" cols="50"></textarea><br><br>
+        
+          <input type="submit" value="Submit">
+        </form>
+        
+  </div>
+
+<footer style="background-color: #0011ff; padding: 20px; text-align: center; font-size: 14px; color: #ffffff;">
+    <p><strong>Copyright 2025 by GebsProduction</strong></p>
+
+</body>
+</html>
